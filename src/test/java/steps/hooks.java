@@ -22,7 +22,7 @@ public class hooks extends baseUtil{
         System.out.println("Opening the browser: Chrome");
 
         //Passing a WebDriver instance
-        System.setProperty("webdriver.chrome.driver", "/Users/mohammadalqubbaj/ChromeDriver/chromedriver.exe" );
+        System.setProperty("webdriver.chrome.driver", "your chromedriver.exe stored path" );
         driver = new ChromeDriver();
 
     }
